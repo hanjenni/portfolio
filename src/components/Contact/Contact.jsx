@@ -22,7 +22,7 @@ const Contact = () => {
         <>
             <section>
                 <div className='container'>
-                    <h1>Contact</h1>
+                    <h1 id='contact' >Contact</h1>
                     <form ref={form} onSubmit={sendEmail}>
                         <div>
                             <input type="text" placeholder='name' name='user_name' required />

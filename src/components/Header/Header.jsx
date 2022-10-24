@@ -49,9 +49,9 @@ export default function BasicTabs() {
     <Box sx={{ width: '100%' }}>
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
         <Tabs className = 'navBar' value={value} onChange={handleChange} aria-label="basic tabs example">
-          <Tab className = 'navBar' label="About Me" {...a11yProps(0)} />
-          <Tab className = 'navBar' label="My Portfolio" {...a11yProps(1)} />
-          <Tab className = 'navBar' label="Contact" {...a11yProps(2)} />
+          <a href='#aboutme'><Tab className = 'navBar' label="About Me" {...a11yProps(0)} /></a>
+          <a href='#portfolio'><Tab className = 'navBar' label="My Portfolio" {...a11yProps(1)} /></a>
+          <a href='#contact'><Tab className = 'navBar' label="Contact" {...a11yProps(2)} /></a>
         </Tabs>
       </Box>
       <TabPanel value={value} index={0}>
