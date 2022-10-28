@@ -20,7 +20,7 @@ const Contact = () => {
       };
     return (
         <>
-            <section>
+            <section className='contactSection'>
                 <div className='container'>
                     <h1 id='contact' >Contact</h1>
                     <form ref={form} onSubmit={sendEmail}>
@@ -42,6 +42,7 @@ const Contact = () => {
                     </form>
                 </div>
             </section>
+
 
         </>
     )
