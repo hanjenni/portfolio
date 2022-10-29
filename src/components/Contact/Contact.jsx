@@ -23,23 +23,25 @@ const Contact = () => {
             <section className='contactSection'>
                 <div className='container'>
                     <h1 id='contact' >Contact</h1>
+                    <center>
                     <form ref={form} onSubmit={sendEmail}>
-                        <div>
+                        <div className='form'>
                             <input type="text" placeholder='name' name='user_name' required />
                         </div>
-                        <div>
+                        <div className='form'>
                             <input type="email" placeholder='email' name='user_email' required />
                         </div>
-                        <div>
+                        <div className='form'>
                             <input type="text" placeholder='subject' name='subject' required />
                         </div>
-                        <div>
+                        <div className='form'>
                             <textarea name='message'></textarea>
                         </div>
-                        <div>
+                        <div className='form'>
                             <button type='submit'>Send Message</button>
                         </div>
                     </form>
+                    </center>
                 </div>
             </section>
 

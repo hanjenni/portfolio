@@ -1,14 +1,12 @@
-.badges {
-    height: 50px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 30px;
+    padding-top: 50px;
+ 
     
   
 }
@@ -16,3 +14,10 @@
 .contactSection {
     padding-bottom: 50px;
 }
+
+.form {
+    padding: 5px;
+  
+}
+
+

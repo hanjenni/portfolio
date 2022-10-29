@@ -1,4 +1,4 @@
-h1, p {
+h1, p, div {
 text-align: center;
 font-family: 'Poppins', sans-serif;
 
@@ -17,4 +17,11 @@ font-family: 'Poppins', sans-serif;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+@media only screen and (min-width: 768px) {
+    .aboutMe {
+        width: 500px; 
+        height: 300px;
+    }
 }

@@ -8,10 +8,15 @@ export default function About() {
             <div id='aboutme'>
                 <h1>Hi, I'm Jen</h1>
                 <img className='myPic' src="https://i.imgur.com/uQMdJWmm.png" alt="Jennifer Han" />
-                <Box className='aboutMe' sx={{width: 500, height: 300}}>
-                        <p>I'm a teacher turned software engineer. I love creating functional and aesthetic applications!
+                <Box className='aboutMe' >
+                        <p className='description'>I'm a teacher turned software engineer. I love creating functional and aesthetic applications!
                         My spark for Web Development started when I taught 6th grade at a Computer Science Magnet School.
-                        Unfortunately, Covid hit and we couldn't learn as a class but I kept going and here I am now!  </p>
+                        Unfortunately, Covid hit and we couldn't learn as a class but I kept going and here I am now!</p>
+                        <div>
+                            <a href='https://github.com/hanjenni'><img src="/github.png" alt="github" /></a>
+                            <a href='https://www.linkedin.com/in/jenniferhan12/'><img src="/linkedin.png" alt="linkedin" /></a>
+                        </div>
+                        
                 </Box>
 
               
