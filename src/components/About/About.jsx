@@ -13,8 +13,8 @@ export default function About() {
                         My spark for Web Development started when I taught 6th grade at a Computer Science Magnet School.
                         Unfortunately, Covid hit and we couldn't learn as a class but I kept going and here I am now!</p>
                         <div>
-                            <a href='https://github.com/hanjenni'><img src="/github.png" alt="github" /></a>
-                            <a href='https://www.linkedin.com/in/jenniferhan12/'><img src="/linkedin.png" alt="linkedin" /></a>
+                            <a href='https://github.com/hanjenni'><img src="https://i.imgur.com/4VTPSZQ.png" alt="github" /></a>
+                            <a href='https://www.linkedin.com/in/jenniferhan12/'><img src="https://i.imgur.com/FBcnQl7.png" alt="linkedin" /></a>
                         </div>
                         
                 </Box>
